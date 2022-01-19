@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es2020"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@service/*": [
+        "service/*"
+      ],
+      "@modules/*": [
+        "modules/*"
+      ],
+      "@feature/*": [
+        "feature/*"
+      ],
+      "@svgs/*": [
+        "styles/svgs/*"
+      ],
+      "@images/*": [
+        "public/images/*"
+      ],
+      "@fonts/*": [
+        "public/fonts/*"
+      ],
+      "@core/*": [
+        "components/core/*"
+      ]
+      // "src/*": ["src/*"],
+    },
+    "module": "esnext",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "next.config.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "_next"
+  ]
+}

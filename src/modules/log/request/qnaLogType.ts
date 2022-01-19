@@ -1,0 +1,3 @@
+export const QUOTE_MY_QNA_OPEN_LOG_TYPES = [471, 495, 521];
+export const QUOTE_RT_QNA_OPEN_LOG_TYPES = [479, 503, 529];
+export const QUOTE_QNA_COMPLETE_LOG_TYPES = [762, 763, 764];

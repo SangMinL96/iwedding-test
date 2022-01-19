@@ -1,0 +1,15 @@
+{
+	"apps": [
+		{
+			"name": "iwedding-next-web",
+			"script": "yarn start",
+			"args": "start",
+			"instances": "max",
+			"exec_mode": "cluster",
+            "env": {
+                "NODE_ENV": "production",
+                "PORT": "6860"
+            }
+		}
+	]
+}

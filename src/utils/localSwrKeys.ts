@@ -1,0 +1,13 @@
+export const SORT_BY_STORE = 'local/sort_by/store';
+export const SELECTED_CART = 'local/selected_cart';
+export const PAGE = 'local/page';
+export const SORT_BY_PAYMENT_COUPON = 'local/sort_by/payment_coupon';
+export const SORT_BY_EVENT_COUPON = 'local/sort_by/event_coupon';
+export const RSV_CENTER_RENTAL_CHECK = 'local/rsvcenter/rental/check';
+export const FILTER_BY_BRAND = 'local/filter_by/brand';
+export const FILTER_BY_STATUS = 'local/filter_by/status';
+export const FILTER_BY_LOCATION = 'local/filter_by/location';
+export const MY_QUOTE_SORT = 'local/sort/my_quote';
+export const RT_QUOTE_SORT = 'local/sort/realtime_quote';
+export const INFI_PRODUCT_KEY = 'local/infinite_product';
+export const IBP_SORT_KEY = 'ibrandplus_sort_key';
