@@ -1,6 +1,17 @@
+const dotenvLoad = require('dotenv-load');
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE == 'true',
+});
+dotenvLoad();
 
+module.exports = withBundleAnalyzer({
+  webpack(config, { isServer, buildId }) {
+    config.resolve.modules.push(__dirname);
 
-module.exports = {
+    return config;
+  },
+
+ 
   // generateBuildId: async () => {
   //   if (process.env.BUILD_ID) {
   //     return process.env.BUILD_ID;
@@ -26,4 +37,4 @@ module.exports = {
     ],
   },
   // swcMinify: true,
-}
+});
