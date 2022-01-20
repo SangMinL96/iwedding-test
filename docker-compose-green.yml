@@ -5,7 +5,7 @@ services:
     container_name: iwedding-web-green
     build: .
     ports:
-      - '6802:6800'
+      - '6800:6800'
     environment:
       - PORT=6800
       - NODE_ENV=production
