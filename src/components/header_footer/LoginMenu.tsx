@@ -16,7 +16,7 @@ const LoginMenu = ({ isScrollTop }: PropsType) => {
     <Container>
       {!haveAccessToken() ? (
         <Link href={`https://www.iwedding.co.kr/member/login?ret_url=${global.window && encodeURIComponent(window.location.href)}`}>
-          로그인
+          로그인222
         </Link>
       ) : (
         <>
