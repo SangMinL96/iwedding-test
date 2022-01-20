@@ -8,6 +8,7 @@ const Alarm = () => {
   //
   //
   //
+  //
   const isDeskTop = Desktop();
   const router = useRouter();
   const closeNoti = () => {
