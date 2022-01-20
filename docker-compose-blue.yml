@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  iwedding-web-blue:
+    image: iwedding-web
+    container_name: iwedding-web-blue
+    build: .
+    ports:
+      - '6801:6800'
+    environment:
+      - PORT=6800
+      - NODE_ENV=production
