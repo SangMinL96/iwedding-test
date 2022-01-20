@@ -7,6 +7,7 @@ const NotificationCenterReplace = dynamic(() => import('@components/header_foote
 const Alarm = () => {
   //
   //
+  //
   const isDeskTop = Desktop();
   const router = useRouter();
   const closeNoti = () => {
