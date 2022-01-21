@@ -21,6 +21,7 @@ const GridContainer = dynamic(() => import('@feature/Ibrandplus/GridContainer'),
 const BrandPage = () => {
   //
   //
+  //
   const {
     query: { category: queryCategory, tag, keyword, page, subCategory },
   } = useRouter();
